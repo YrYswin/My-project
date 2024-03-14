@@ -1,0 +1,24 @@
+.reletedProducts {
+   width: 1200px;
+   margin: 50px auto;
+}
+
+.titleReleted {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.products {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.product img {
+   width: 100%;
+}
+
+.titleProductReleted {
+   text-align: start;
+}

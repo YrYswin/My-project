@@ -1,0 +1,47 @@
+.Banner {
+   width: 1200px;
+   margin: 0 auto;
+   text-align: start;
+}
+
+.carousel {
+   background-color: #ffffff;
+}
+
+.background {
+   width: 1200px;
+   height: 400px;
+}
+
+.bannerItem {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 100px;
+}
+
+.titleBanner {
+   text-align: start;
+   color: rgb(0, 0, 0, .9);
+}
+
+.titleBanner h5 {
+   font-size: 14px;
+}
+
+.titleBanner h1 {
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.titleBanner p {
+   font-size: 10px;
+}
+
+.shopNowBtn {
+   padding: 8px 20px;
+   border: none;
+   background-color: #46a358;
+   color: #ffffff;
+   border-radius: 4px;
+}

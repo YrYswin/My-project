@@ -1,0 +1,38 @@
+.itemDescriptions {
+   width: 1200px;
+   margin: 50px auto;
+}
+
+.itemDescriptions .pages {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 30px;
+   border-bottom: 1px solid #46a358;
+   font-size: 18px;
+}
+
+.itemDescriptions .pages>div {
+   cursor: pointer;
+   padding: 10px 20px;
+}
+
+.itemDescriptions .pages>.active {
+   border-bottom: 2px solid #098700;
+   font-weight: 700;
+}
+
+.itemDescriptions .descriptions {
+   text-align: start;
+}
+
+.itemDescriptions .descriptions h5 {
+   font-size: 14px;
+   font-weight: 700;
+}
+
+.itemDescriptions .descriptions p {
+   font-size: 14px;
+   font-weight: 400;
+   margin: 20px 0;
+}

@@ -1,0 +1,49 @@
+.ourBlog {
+   width: 1200px;
+   margin: 100px auto;
+}
+
+.ourBlogList {
+   width: 1200px;
+   margin: 100px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 20px;
+}
+
+.blogs {
+   text-align: start;
+}
+
+.blogs img {
+   width: 100%;
+}
+
+.titleBlog {
+   padding: 30px;
+}
+
+.blogs h5 {
+   font-size: 13px;
+   color: #46a358;
+   font-weight: 600;
+}
+
+.blogs h2 {
+   font-size: 22px;
+}
+
+.blogs p {
+   font-size: 13px;
+}
+
+.blogs span {
+   cursor: pointer;
+   color: black;
+   font-weight: 600;
+}
+
+.blogs span:hover {
+   color: #46a358;
+}

@@ -1,0 +1,182 @@
+.products {
+   width: 1200px;
+   margin: 50px auto;
+   gap: 40px;
+}
+
+.productsCart {
+   width: 800px;
+}
+
+.productsCart .cartTitle {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   border-bottom: .5px solid #afd7b7;
+   text-align: start;
+   padding-right: 100px;
+}
+
+.itemCart {
+   display: flex;
+   align-items: center;
+}
+
+
+.itemsName {
+   display: flex;
+   text-align: start;
+   align-items: center;
+   width: 235px;
+}
+
+.itemsName .imgItem {
+   height: 80px;
+}
+
+.imgItem img {
+   height: 100%;
+}
+
+.nameItem>h4,
+.nameItem>p {
+   margin: 0 0 !important;
+}
+
+.nameItem>h4 {
+   font-size: 20px;
+}
+
+.nameItem>p {
+   font-size: 14px;
+   color: gray;
+}
+
+.priceItem {
+   text-align: start;
+   width: 155px;
+}
+
+.priceItem p {
+   margin: 0;
+}
+
+.countItem {
+   width: 270px;
+}
+
+.totalItem {
+   width: 80px;
+   text-align: start;
+}
+
+.totalItem p {
+   margin: 0;
+}
+
+.deleteItem {
+   border: 1px solid #afd7b7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   width: 40px;
+   padding: 6px;
+   cursor: pointer;
+}
+
+.deleteItem img {
+   width: 100%;
+}
+
+.titleCounter {
+   border-bottom: 1px solid #afd7b7;
+}
+
+.titleCounter h4 {
+   font-size: 20px;
+   margin: 0;
+   text-align: start;
+   font-weight: 600;
+}
+
+.couponItem {
+   text-align: start;
+}
+
+.couponItem p {
+   color: black;
+   margin: 5px 0;
+}
+
+.couponInput {
+   border: 1px solid #46a358;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 5px;
+}
+
+.couponInput input {
+   width: 70%;
+   border: none;
+   border-radius: 4px 0 0 4px;
+   padding: 5px 10px;
+   font-size: 13px;
+}
+
+.couponInput input:focus {
+   outline: none;
+}
+
+.couponInput button {
+   width: 30%;
+   border: none;
+   background-color: #46a358;
+   color: white;
+   padding: 5px 15px;
+   border-radius: 0 2px 2px 0;
+}
+
+.totalCounter {
+   margin: 20px 0;
+}
+
+.totalCounter>div {
+   display: flex;
+   justify-content: space-between;
+}
+
+.totalCounter>p {
+   text-align: end;
+   margin: 0;
+   color: #46a358;
+}
+
+.checkout {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.checkout button {
+   width: 350px;
+   border-radius: 4px;
+}
+
+.checkout>.proceed {
+   padding: 5px 10px;
+   border: none;
+   background-color: #46a358;
+   color: #f1f1f1;
+}
+
+.checkout>.proceed a {
+   color: #f1f1f1 !important;
+}
+
+.checkout>.shopping {
+   padding: 5px 10px;
+   background: transparent;
+   border: none;
+   color: #46a358;
+}
